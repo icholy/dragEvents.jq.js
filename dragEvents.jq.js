@@ -39,7 +39,7 @@
       $doc.bind('mousemove', mouseMoveHandler);
     });
 
-    $(document).on('mouseup', function (e) {
+    $doc.on('mouseup', function (e) {
       if (isMouseDown) {
         $doc.unbind('mousemove', mouseMoveHandler);
         isMouseDown = false;
