@@ -1,5 +1,5 @@
 {
-  "name": "jquery-dragEvent",
+  "name": "jquery-dragEvents",
   "version": "0.0.1",
   "main": "./dragEvents.jq.js",
   "dependencies": {
