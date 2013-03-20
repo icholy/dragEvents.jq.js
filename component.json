@@ -1,0 +1,8 @@
+{
+  "name": "jquery-dragEvent",
+  "version": "0.0.1",
+  "main": "./dragEvents.jq.js",
+  "dependencies": {
+    "jquery": "~1.7.2"
+  }
+}
