@@ -40,8 +40,10 @@
     });
 
     $(document).on('mouseup', function (e) {
-      $doc.unbind('mousemove', mouseMoveHandler);
-      isMouseDown = false;
+      if (isMouseDown) {
+        $doc.unbind('mousemove', mouseMoveHandler);
+        isMouseDown = false;
+      }
       if (isDragging) {
         isDragging = false;
         $el.trigger({
