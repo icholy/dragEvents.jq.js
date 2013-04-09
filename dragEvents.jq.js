@@ -1,12 +1,12 @@
 (function ($) {
  
-  $.fn.registerDragEvents = function () {
+  $.fn.registerDragEvents = function (scope) {
 
     var isMouseDown = false,
         isDragging = false,
         startX, startY,
         $el = this,
-        $doc = $(document);
+        $doc = $(scope || document);
 
     var mouseMoveHandler = function (e) {
       if (!isDragging) {
