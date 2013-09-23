@@ -37,3 +37,8 @@ Each of the event objects passed into the drag callbacks have the following prop
 
 ```
 
+### Notes
+
+
+`$.registerDragEvents` takes an optional parameter which limits the scope of the page which is watched for drag events.
+This patameter defaults to `document`
